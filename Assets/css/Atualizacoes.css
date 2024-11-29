@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    background-color: #5d3a78;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    align-items: center;
+    display: flex;
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+nav .active a,
+nav a:hover {
+    background-color: #78576b;
+    color: white;
+}
+
+#banner {
+    background-color: #9569B7;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.banner_headline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner_headline h1 {
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.banner_headline h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.banner_options {
+    height: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner1,
+.banner2 {
+    flex: 1;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+.banner1 {
+    background-color: #7895f7;
+}
+
+.banner2 {
+    background-color: #3e1570;
+}
+
+.banner_tittle {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.banner_desc {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.banner_options a {
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#conteudo {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.Atual {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.textos  {
+    margin-bottom: 16px;
+    text-indent: 20px; 
+    line-height: 1.6;
+}
+
+.conteudo_principal {
+    max-width: 800px;
+    text-align: center;
+}
+
+.conteudo_principal h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.conteudo_principal p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #5d3a78;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#Feito {
+    margin-left: 600px;
+}
